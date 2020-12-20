@@ -12,4 +12,4 @@ class Food(Turtle):
         self.refresh()
 
     def refresh(self):
-        self.goto(x=random.randint(-380, 380), y=random.randint(-380, 380))
+        self.goto(x=random.randint(-380, 380), y=random.randint(-380, 340))
